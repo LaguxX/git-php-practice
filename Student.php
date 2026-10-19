@@ -8,4 +8,7 @@ class Student {
         $this->group = $group;
         $this->averageScore = $averageScore;
     }
+    public function getInfo() {
+        return $this->name . " " . $this->group . " " . $this->averageScore;
+    }
 }

@@ -8,4 +8,7 @@ class Teacher {
         $this->subject = $subject;
         $this->experience = $experience;
     }
+    public function getInfo() {
+        return $this->name . " " . $this->subject . " " . $this->experience;
+    }
 }

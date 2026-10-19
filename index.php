@@ -8,8 +8,8 @@ echo $calc->add(10, 5) . PHP_EOL;
 echo $calc->divide(10, 2) . PHP_EOL;
 echo $calc->divide(10, 0) . PHP_EOL;
 
-$student = new Student("Алексей", "ИС-21", 4.8);
+$student = new Student("Alex", "IS-21", 4.8);
 echo $student->getInfo() . PHP_EOL;
 
-$teacher = new Teacher("Иван Петрович", "Программирование", 10);
+$teacher = new Teacher("Ivan", "PHP", 5);
 echo $teacher->getInfo() . PHP_EOL;
