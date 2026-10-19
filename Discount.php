@@ -1,5 +1,5 @@
 <?php
 function calculateDiscount(float $price, float $discount): float
 {
-    return $price * $discount;
+    return $price - ($price * ($discount / 100));
 }
